@@ -25,8 +25,8 @@ That's exactly what happened in the first training run:
 
 | Model Version | Accuracy | Sensitivity (Recall for Melanoma) |
 |---------------|:--------:|:---------------------------------:|
-| Baseline MobileNetV2 | **88.68%** | **35.83%** ❌ |
-| After class weighting + fine-tuning | **89.19%** | **54.17%** ✅ |
+| Baseline MobileNetV2 | **88.68%** | **35.83%** |
+| After class weighting + fine-tuning | **89.19%** | **54.17%** |
 
 > **This is the core lesson of the project:** accuracy lied. Sensitivity told the truth. A model that misses **2 out of 3 melanomas** is not a medical tool — it's a hazard.
 
